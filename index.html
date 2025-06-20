@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3B82F6" />
+  
+  <!-- SEO Meta Tags -->
+  <title>YouzinElegancia - Plateforme E-commerce Professionnelle | Créez Votre Boutique en Ligne</title>
+  <meta name="description" content="Créez des pages de vente exceptionnelles en quelques clics avec YouzinElegancia, la plateforme e-commerce leader en Algérie. Support 24/7, templates professionnels, paiements locaux." />
+  <meta name="keywords" content="e-commerce Algérie, boutique en ligne, pages de vente, plateforme e-commerce, YouzinElegancia, commerce électronique" />
+  <meta name="author" content="YouzinElegancia" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://youzinelegancia.com" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="YouzinElegancia - Plateforme E-commerce Professionnelle" />
+  <meta property="og:description" content="Créez des pages de vente exceptionnelles en quelques clics avec YouzinElegancia, la plateforme e-commerce leader en Algérie." />
+  <meta property="og:image" content="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  <meta property="og:url" content="https://youzinelegancia.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_DZ" />
+  <meta property="og:locale:alternate" content="ar_DZ" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="YouzinElegancia - Plateforme E-commerce Professionnelle" />
+  <meta name="twitter:description" content="Créez des pages de vente exceptionnelles en quelques clics avec YouzinElegancia, la plateforme e-commerce leader en Algérie." />
+  <meta name="twitter:image" content="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.pexels.com https://www.youtube.com; media-src 'self' https://www.youtube.com; script-src 'self' 'unsafe-inline' https://www.youtube.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  
+  <!-- Favicon and Manifest -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" /></noscript>
+  
+  <!-- Preload Hero Image -->
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip to Main Content -->
+  <a href="#main" class="skip-link" data-key="skip-to-content">Aller au contenu principal</a>
+  
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progressBar" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- Header -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h1>YouzinElegancia</h1>
+      </div>
+      
+      <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link" data-key="nav-home">Accueil</a>
+        <a href="#services" class="nav-link" data-key="nav-services">Services</a>
+        <a href="#pricing" class="nav-link" data-key="nav-pricing">Tarifs</a>
+        <a href="#about" class="nav-link" data-key="nav-about">À propos</a>
+        <a href="#contact" class="nav-link" data-key="nav-contact">Contact</a>
+        <a href="#support" class="nav-link support-link" data-key="nav-support">Support 24/7</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="language-switcher" role="group" aria-label="Language selection">
+          <button class="lang-btn active" data-lang="fr" aria-pressed="true" aria-label="Français">🇫🇷</button>
+          <button class="lang-btn" data-lang="ar" aria-pressed="false" aria-label="العربية">🇩🇿</button>
+        </div>
+        
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode" data-key="dark-mode-toggle">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="sun-icon">
+            <path d="M12,18C8.69,18 6,15.31 6,12C6,8.69 8.69,6 12,6C15.31,6 18,8.69 18,12C18,15.31 15.31,18 12,18M12,2A1,1 0 0,0 11,3V6A1,1 0 0,0 12,7A1,1 0 0,0 13,6V3A1,1 0 0,0 12,2M17,7A1,1 0 0,0 18,6L20.12,3.88A1,1 0 0,0 20.12,2.46L18.54,4.05A1,1 0 0,0 17,5A1,1 0 0,0 17,7M3.88,3.88A1,1 0 0,0 2.46,3.88A1,1 0 0,0 2.46,5.29L4.05,6.88A1,1 0 0,0 5.46,6.88A1,1 0 0,0 5.46,5.46L3.88,3.88M22,11A1,1 0 0,0 21,12A1,1 0 0,0 22,13H19A1,1 0 0,0 18,12A1,1 0 0,0 19,11H22M5,12A1,1 0 0,0 4,11H1A1,1 0 0,0 0,12A1,1 0 0,0 1,13H4A1,1 0 0,0 5,12M18.36,17.64A1,1 0 0,0 19.78,17.64L21.36,19.22A1,1 0 0,0 21.36,20.64A1,1 0 0,0 19.95,20.64L18.36,19.05A1,1 0 0,0 18.36,17.64M4.22,17.64A1,1 0 0,0 4.22,19.05L2.64,20.64A1,1 0 0,0 2.64,22.05A1,1 0 0,0 4.05,22.05L5.64,20.46A1,1 0 0,0 5.64,19.05A1,1 0 0,0 4.22,17.64M12,22A1,1 0 0,0 13,21V18A1,1 0 0,0 12,17A1,1 0 0,0 11,18V21A1,1 0 0,0 12,22Z"/>
+          </svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" class="moon-icon">
+            <path d="M17.75,4.09L15.22,6.03L16.13,9.09L13.5,7.28L10.87,9.09L11.78,6.03L9.25,4.09L12.44,4L13.5,1L14.56,4L17.75,4.09M21.25,11L19.61,12.25L20.2,14.23L18.5,13.06L16.8,14.23L17.39,12.25L15.75,11L17.81,10.95L18.5,9L19.19,10.95L21.25,11M18.97,15.95C19.8,15.87 20.69,17.05 20.16,17.8C19.84,18.25 19.5,18.67 19.08,19.07C15.17,23 8.84,23 4.94,19.07C1.03,15.17 1.03,8.83 4.94,4.93C5.34,4.53 5.76,4.17 6.21,3.85C6.96,3.32 8.14,4.21 8.06,5.04C7.79,7.9 8.75,10.87 10.95,13.06C13.14,15.26 16.1,16.22 18.97,15.95M17.33,17.97C14.5,17.81 11.7,16.64 9.53,14.5C7.36,12.31 6.2,9.5 6.04,6.68C3.23,9.82 3.34,14.4 6.35,17.41C9.37,20.43 14,20.54 17.33,17.97Z"/>
+          </svg>
+        </button>
+        
+        <button class="btn btn-outline" id="loginBtn" data-key="login">Se connecter</button>
+        <button class="btn btn-primary" id="signupBtn" data-key="signup">S'inscrire</button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero scroll-animate" id="home">
+      <div class="hero-background">
+        <div class="particles" id="particles"></div>
+        <div class="gradient-overlay"></div>
+      </div>
+      
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="hero-title typing-text" data-key="hero-title">
+            Votre Plateforme E-commerce Professionnelle
+          </h2>
+          <p class="hero-subtitle fade-in-up" data-key="hero-subtitle">
+            Créez des pages de vente exceptionnelles en quelques clics et transformez vos visiteurs en clients fidèles
+          </p>
+          <div class="hero-cta fade-in-up">
+            <button class="btn btn-primary btn-large" id="heroSignupBtn" data-key="start-free">
+              Commencer Gratuitement
+            </button>
+            <button class="btn btn-secondary btn-large" data-key="demo">
+              Demander une Démo
+            </button>
+          </div>
+          
+          <!-- Social Sharing Buttons -->
+          <div class="social-share fade-in-up" role="group" aria-label="Share on social media">
+            <span data-key="share-text">Partager :</span>
+            <a href="#" class="share-btn whatsapp" aria-label="Share on WhatsApp" data-key="share-whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+              </svg>
+            </a>
+            <a href="#" class="share-btn facebook" aria-label="Share on Facebook" data-key="share-facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="#" class="share-btn twitter" aria-label="Share on Twitter" data-key="share-twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section scroll-animate" id="stats">
+      <div class="container">
+        <h2 class="section-title" data-key="stats-title">Chiffres Clés</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number" data-count="10000">0</div>
+            <div class="stat-label" data-key="merchants">Commerçants Actifs</div>
+            <div class="stat-description" data-key="merchants-desc">Font confiance à notre plateforme</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="50000000">0</div>
+            <div class="stat-label" data-key="sales-generated">Ventes Générées</div>
+            <div class="stat-description" data-key="sales-desc">En dinars algériens</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="99.9">0</div>
+            <div class="stat-label" data-key="uptime">% Disponibilité</div>
+            <div class="stat-description" data-key="uptime-desc">Garantie de service</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="24">0</div>
+            <div class="stat-label" data-key="support-hours">h/24 Support</div>
+            <div class="stat-description" data-key="support-desc">Assistance continue</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="values scroll-animate" id="values">
+      <div class="container">
+        <h2 class="section-title" data-key="values-title">Pourquoi Choisir YouzinElegancia ?</h2>
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/>
+              </svg>
+            </div>
+            <h3 data-key="professionalism">Professionnalisme</h3>
+            <p data-key="professionalism-desc">Solutions e-commerce de niveau entreprise avec des outils avancés</p>
+          </div>
+          
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C15.4,11.5 16,12.4 16,13V16C16,16.6 15.6,17 15,17H9C8.4,17 8,16.6 8,16V13C8,12.4 8.4,11.5 9,11.5V10C9,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.2,8.7 10.2,10V11.5H13.8V10C13.8,8.7 12.8,8.2 12,8.2Z"/>
+              </svg>
+            </div>
+            <h3 data-key="credibility">Crédibilité</h3>
+            <p data-key="credibility-desc">Plateforme fiable utilisée par des milliers de commerçants algériens</p>
+          </div>
+          
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M13,1L23,6V10.55C23,15.84 19.24,20.81 13,22C6.76,20.81 3,15.84 3,10.55V6L13,1M12,7C10.89,7 10,7.89 10,9A3,3 0 0,0 13,12A3,3 0 0,0 16,9C16,7.89 15.11,7 14,7H12M9,13A5,5 0 0,0 14,18A5,5 0 0,0 19,13H9Z"/>
+              </svg>
+            </div>
+            <h3 data-key="speed">Rapidité</h3>
+            <p data-key="speed-desc">Déployez votre boutique en ligne en moins de 5 minutes</p>
+          </div>
+          
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"/>
+              </svg>
+            </div>
+            <h3 data-key="security">Sécurité</h3>
+            <p data-key="security-desc">Sécurité bancaire et protection des données garanties</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features scroll-animate" id="services">
+      <div class="container">
+        <h2 class="section-title" data-key="features-title">Fonctionnalités Puissantes</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V7.5H5V5H19M5,19V9.5H19V19H5Z"/>
+              </svg>
+            </div>
+            <h3 data-key="landing-pages">Pages de Destination</h3>
+            <p data-key="landing-pages-desc">Créez des pages de vente optimisées qui convertissent</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z"/>
+              </svg>
+            </div>
+            <h3 data-key="templates">Templates Personnalisables</h3>
+            <p data-key="templates-desc">Bibliothèque de templates professionnels prêts à utiliser</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"/>
+              </svg>
+            </div>
+            <h3 data-key="analytics">Analytics Avancés</h3>
+            <p data-key="analytics-desc">Suivez vos performances et optimisez vos conversions</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5H5.21L4.27,3H1M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"/>
+              </svg>
+            </div>
+            <h3 data-key="payments">Paiements Locaux</h3>
+            <p data-key="payments-desc">Intégration avec les systèmes de paiement algériens</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z"/>
+              </svg>
+            </div>
+            <h3 data-key="support">Support 24/7</h3>
+            <p data-key="support-desc">Assistance technique disponible à tout moment</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+              </svg>
+            </div>
+            <h3 data-key="optimization">Optimisation SEO</h3>
+            <p data-key="optimization-desc">Pages optimisées pour les moteurs de recherche</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section scroll-animate" id="partners">
+      <div class="container">
+        <h2 class="section-title" data-key="partners-title">Nos Partenaires</h2>
+        <p class="section-subtitle" data-key="partners-subtitle">Ils nous font confiance pour développer leur business</p>
+        <div class="partners-grid">
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 1" data-key="partner-1-alt" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 2" data-key="partner-2-alt" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 3" data-key="partner-3-alt" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 4" data-key="partner-4-alt" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 5" data-key="partner-5-alt" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop" alt="Partner 6" data-key="partner-6-alt" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials scroll-animate" id="testimonials">
+      <div class="container">
+        <h2 class="section-title" data-key="testimonials-title">Ce Que Disent Nos Clients</h2>
+        
+        <!-- Video Testimonials -->
+        <div class="video-testimonials">
+          <div class="video-grid">
+            <div class="video-testimonial">
+              <div class="video-thumbnail" data-video-id="dQw4w9WgXcQ">
+                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Ahmed Benali testimonial video" data-key="video-testimonial-1-alt" loading="lazy" />
+                <button class="play-button" aria-label="Play testimonial video" data-key="play-video">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="video-info">
+                <h4>Ahmed Benali</h4>
+                <span data-key="testimonial-role-1">Propriétaire, Mode & Style</span>
+              </div>
+            </div>
+            
+            <div class="video-testimonial">
+              <div class="video-thumbnail" data-video-id="dQw4w9WgXcQ">
+                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Fatima Zohra testimonial video" data-key="video-testimonial-2-alt" loading="lazy" />
+                <button class="play-button" aria-label="Play testimonial video" data-key="play-video">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="video-info">
+                <h4>Fatima Zohra</h4>
+                <span data-key="testimonial-role-2">Fondatrice, Beauté Naturelle</span>
+              </div>
+            </div>
+            
+            <div class="video-testimonial">
+              <div class="video-thumbnail" data-video-id="dQw4w9WgXcQ">
+                <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Karim Messaoudi testimonial video" data-key="video-testimonial-3-alt" loading="lazy" />
+                <button class="play-button" aria-label="Play testimonial video" data-key="play-video">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="video-info">
+                <h4>Karim Messaoudi</h4>
+                <span data-key="testimonial-role-3">Gérant, Électronique Plus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Text Testimonials Carousel -->
+        <div class="testimonials-carousel" id="testimonialsCarousel">
+          <div class="testimonial-card active">
+            <div class="testimonial-content">
+              <p data-key="testimonial-1">"YouzinElegancia a transformé mon business. Mes ventes ont augmenté de 300% en 3 mois !"</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Ahmed Benali" data-key="testimonial-author-1-alt" loading="lazy" />
+                <div>
+                  <h4>Ahmed Benali</h4>
+                  <span data-key="testimonial-role-1">Propriétaire, Mode & Style</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p data-key="testimonial-2">"Interface intuitive et support exceptionnel. Je recommande vivement !"</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Fatima Zohra" data-key="testimonial-author-2-alt" loading="lazy" />
+                <div>
+                  <h4>Fatima Zohra</h4>
+                  <span data-key="testimonial-role-2">Fondatrice, Beauté Naturelle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p data-key="testimonial-3">"Grâce à YouzinElegancia, j'ai pu digitaliser mon commerce traditionnel rapidement."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Karim Messaoudi" data-key="testimonial-author-3-alt" loading="lazy" />
+                <div>
+                  <h4>Karim Messaoudi</h4>
+                  <span data-key="testimonial-role-3">Gérant, Électronique Plus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-dots" role="tablist" aria-label="Testimonial navigation">
+          <button class="dot active" data-slide="0" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+          <button class="dot" data-slide="1" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+          <button class="dot" data-slide="2" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section scroll-animate" id="faq">
+      <div class="container">
+        <h2 class="section-title" data-key="faq-title">Questions Fréquemment Posées</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" data-key="faq-question-1">
+              Comment puis-je commencer avec YouzinElegancia ?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-key="faq-answer-1">Il vous suffit de vous inscrire gratuitement, choisir un template qui vous convient, personnaliser votre page de vente et publier. Tout le processus prend moins de 10 minutes.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" data-key="faq-question-2">
+              Quels sont les moyens de paiement acceptés ?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-key="faq-answer-2">Nous acceptons tous les moyens de paiement algériens : CIB, EDAHABIA, virement bancaire, et paiement à la livraison. L'intégration est automatique.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" data-key="faq-question-3">
+              Y a-t-il des frais cachés ?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-key="faq-answer-3">Non, nos tarifs sont transparents. Vous payez uniquement l'abonnement mensuel choisi, sans frais cachés ni commissions sur vos ventes.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" data-key="faq-question-4">
+              Puis-je personnaliser entièrement ma page ?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-key="faq-answer-4">Absolument ! Vous pouvez modifier les couleurs, polices, images, textes et mise en page selon vos besoins. Notre éditeur visuel rend la personnalisation très simple.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" data-key="faq-question-5">
+              Le support technique est-il vraiment disponible 24/7 ?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-key="faq-answer-5">Oui, notre équipe de support est disponible 24h/24 et 7j/7 via chat en direct, email et téléphone. Nous garantissons une réponse en moins de 5 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section scroll-animate" id="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2 data-key="newsletter-title">Restez Informé des Dernières Nouveautés</h2>
+          <p data-key="newsletter-subtitle">Recevez nos conseils e-commerce, nouvelles fonctionnalités et offres exclusives directement dans votre boîte mail.</p>
+          
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <div class="form-group">
+              <input 
+                type="email" 
+                id="newsletterEmail" 
+                required 
+                placeholder=" "
+                aria-describedby="newsletter-error"
+              />
+              <label for="newsletterEmail" data-key="newsletter-email-placeholder">Votre adresse email</label>
+              <div class="error-message" id="newsletter-error" role="alert"></div>
+            </div>
+            <button type="submit" class="btn btn-primary" data-key="newsletter-subscribe">
+              S'abonner
+            </button>
+          </form>
+          
+          <p class="newsletter-privacy" data-key="newsletter-privacy">
+            En vous abonnant, vous acceptez de recevoir nos emails marketing. Vous pouvez vous désabonner à tout moment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support-section scroll-animate" id="support">
+      <div class="container">
+        <div class="support-content">
+          <div class="support-badge">
+            <span data-key="support-24-7">Support 24/7</span>
+          </div>
+          <h2 data-key="support-title">Nous Sommes Là Pour Vous</h2>
+          <p data-key="support-desc">Notre équipe d'experts est disponible 24h/24 et 7j/7 pour vous accompagner dans votre réussite.</p>
+          
+          <div class="support-channels">
+            <div class="support-channel">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,9.5C17,10.3 16.3,11 15.5,11C14.7,11 14,10.3 14,9.5C14,8.7 14.7,8 15.5,8C16.3,8 17,8.7 17,9.5M10,9.5C10,10.3 9.3,11 8.5,11C7.7,11 7,10.3 7,9.5C7,8.7 7.7,8 8.5,8C9.3,8 10,8.7 10,9.5M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z"/>
+                </svg>
+              </div>
+              <h3 data-key="live-chat">Chat en Direct</h3>
+              <p data-key="response-time">Réponse en moins de 5 minutes</p>
+            </div>
+            
+            <div class="support-channel">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/>
+                </svg>
+              </div>
+              <h3 data-key="email-support">Support Email</h3>
+              <p data-key="email-response">Réponse garantie sous 2h</p>
+            </div>
+            
+            <div class="support-channel">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                </svg>
+              </div>
+              <h3 data-key="phone-support">Support Téléphonique</h3>
+              <p data-key="phone-hours">Disponible 24h/24</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="cta-final scroll-animate" id="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2 data-key="cta-title">Prêt à transformer votre business ?</h2>
+          <p data-key="cta-subtitle">Rejoignez plus de 10,000 commerçants algériens qui font confiance à YouzinElegancia</p>
+          <div class="cta-buttons">
+            <button class="btn btn-primary btn-large" id="ctaSignupBtn" data-key="create-account">Créer un Compte Gratuit</button>
+            <button class="btn btn-outline btn-large" id="ctaLoginBtn" data-key="login">Se Connecter</button>
+          </div>
+          <p class="guarantee" data-key="guarantee">Essai gratuit de 14 jours - Sans engagement</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>YouzinElegancia</h3>
+          <p data-key="footer-desc">La plateforme e-commerce leader en Algérie pour créer des pages de vente exceptionnelles.</p>
+          <div class="social-links" role="group" aria-label="Social media links">
+            <a href="#" aria-label="Facebook" referrerpolicy="no-referrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" referrerpolicy="no-referrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" referrerpolicy="no-referrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" referrerpolicy="no-referrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-key="footer-product">Produit</h4>
+          <ul>
+            <li><a href="#" data-key="footer-features">Fonctionnalités</a></li>
+            <li><a href="#" data-key="footer-pricing">Tarifs</a></li>
+            <li><a href="#" data-key="footer-templates">Templates</a></li>
+            <li><a href="#" data-key="footer-integrations">Intégrations</a></li>
+            <li><a href="#" data-key="footer-api">API</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-key="footer-support">Support</h4>
+          <ul>
+            <li><a href="#" data-key="footer-help">Centre d'aide</a></li>
+            <li><a href="#" data-key="footer-contact">Contact</a></li>
+            <li><a href="#" data-key="footer-status">Statut du service</a></li>
+            <li><a href="#" data-key="footer-community">Communauté</a></li>
+            <li><a href="#" data-key="footer-tutorials">Tutoriels</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-key="footer-company">Entreprise</h4>
+          <ul>
+            <li><a href="#" data-key="footer-about">À propos</a></li>
+            <li><a href="#" data-key="footer-blog">Blog</a></li>
+            <li><a href="#" data-key="footer-careers">Carrières</a></li>
+            <li><a href="#" data-key="footer-press">Presse</a></li>
+            <li><a href="#" data-key="footer-partners">Partenaires</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-key="footer-legal">Légal</h4>
+          <ul>
+            <li><a href="#" data-key="footer-privacy">Politique de confidentialité</a></li>
+            <li><a href="#" data-key="footer-terms">Conditions d'utilisation</a></li>
+            <li><a href="#" data-key="footer-cookies">Politique des cookies</a></li>
+            <li><a href="#" data-key="footer-gdpr">RGPD</a></li>
+            <li><a href="#" data-key="footer-security">Sécurité</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 YouzinElegancia. <span data-key="footer-rights">Tous droits réservés.</span></p>
+        <div class="footer-links">
+          <a href="#" data-key="footer-privacy">Politique de confidentialité</a>
+          <a href="#" data-key="footer-terms">Conditions d'utilisation</a>
+          <a href="#" data-key="footer-cookies">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta" id="stickyCta" role="banner" aria-label="Sticky call to action">
+    <div class="sticky-cta-content">
+      <span data-key="sticky-cta-text">Créez votre boutique maintenant</span>
+      <button class="btn btn-primary btn-small" id="stickyCTABtn" data-key="create-account">Créer un compte</button>
+    </div>
+    <button class="sticky-cta-close" id="stickyCTAClose" aria-label="Close sticky banner">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Signup Modal -->
+  <div class="modal" id="signupModal" role="dialog" aria-modal="true" aria-labelledby="signupModalTitle" tabindex="-1">
+    <div class="modal-overlay" id="signupModalOverlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="signupModalTitle" data-key="create-account">Créer mon compte gratuitement</h3>
+        <button class="modal-close" id="signupModalClose" aria-label="Close modal">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="signup-form" id="signupForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="signupName" required placeholder=" " aria-describedby="signup-name-error" />
+            <label for="signupName" data-key="name-placeholder">Nom complet</label>
+            <div class="error-message" id="signup-name-error" role="alert"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="signupEmail" required placeholder=" " aria-describedby="signup-email-error" />
+            <label for="signupEmail" data-key="email-placeholder">Adresse email</label>
+            <div class="error-message" id="signup-email-error" role="alert"></div>
+          </div>
+          <div class="form-group">
+            <input type="password" id="signupPassword" required placeholder=" " aria-describedby="signup-password-error" />
+            <label for="signupPassword" data-key="password-placeholder">Mot de passe</label>
+            <div class="error-message" id="signup-password-error" role="alert"></div>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="signupTerms" required />
+            <label for="signupTerms" data-key="terms-agreement">
+              J'accepte les <a href="#" data-key="terms-link">conditions d'utilisation</a> et la <a href="#" data-key="privacy-link">politique de confidentialité</a>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" data-key="create-free-account">
+            Créer mon compte gratuitement
+          </button>
+        </form>
+        <p class="login-link">
+          <span data-key="already-member">Déjà membre ?</span>
+          <a href="#" id="switchToLogin" data-key="login-here">Se connecter ici</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginModalTitle" tabindex="-1">
+    <div class="modal-overlay" id="loginModalOverlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="loginModalTitle" data-key="login">Se connecter</h3>
+        <button class="modal-close" id="loginModalClose" aria-label="Close modal">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="login-form" id="loginForm" novalidate>
+          <div class="form-group">
+            <input type="email" id="loginEmail" required placeholder=" " aria-describedby="login-email-error" />
+            <label for="loginEmail" data-key="email-placeholder">Adresse email</label>
+            <div class="error-message" id="login-email-error" role="alert"></div>
+          </div>
+          <div class="form-group">
+            <input type="password" id="loginPassword" required placeholder=" " aria-describedby="login-password-error" />
+            <label for="loginPassword" data-key="password-placeholder">Mot de passe</label>
+            <div class="error-message" id="login-password-error" role="alert"></div>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="rememberMe" />
+            <label for="rememberMe" data-key="remember-me">Se souvenir de moi</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" data-key="login-button">
+            Se connecter
+          </button>
+        </form>
+        <div class="login-links">
+          <a href="#" data-key="forgot-password">Mot de passe oublié ?</a>
+        </div>
+        <p class="signup-link">
+          <span data-key="no-account">Pas encore de compte ?</span>
+          <a href="#" id="switchToSignup" data-key="signup-here">S'inscrire ici</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal video-modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle" tabindex="-1">
+    <div class="modal-overlay" id="videoModalOverlay"></div>
+    <div class="modal-content video-modal-content">
+      <div class="modal-header">
+        <h3 id="videoModalTitle" data-key="customer-testimonial">Témoignage Client</h3>
+        <button class="modal-close" id="videoModalClose" aria-label="Close video modal">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="video-container" id="videoContainer">
+          <!-- Video will be loaded here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
